@@ -1,0 +1,15 @@
+<html>
+    <head>
+        <meta name="decorator" content="atl.general"/>
+        $webResourceManager.requireResource("example.dedas.jira.demo:demo-resources")
+    </head>
+
+    <body>
+
+        <div class="demo-wrapper">
+            <h1>HELLO!!!!!!!</h1>
+            <p><b>$issueCount</b></p>
+        </div>
+
+    </body>
+</html>
