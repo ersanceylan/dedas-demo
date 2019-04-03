@@ -1,0 +1,1 @@
+console.log("Demo Servlet JS is working");

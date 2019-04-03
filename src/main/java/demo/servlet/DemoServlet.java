@@ -18,6 +18,7 @@ import java.util.Map;
 @Named
 public class DemoServlet extends HttpServlet {
 
+//    beans need to be imported with @ComponentImport for the first time we use!
     @ComponentImport
     private final TemplateRenderer templateRenderer;
 

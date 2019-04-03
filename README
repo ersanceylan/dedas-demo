@@ -17,3 +17,4 @@ Useful Links:
 * UI Locations https://developer.atlassian.com/server/jira/platform/project-settings-ui-locations/
 * Velocity Template Engine http://velocity.apache.org/engine/1.7/user-guide.html
 * AUI docs https://docs.atlassian.com/aui/7.9.9/docs/inline-dialog.html
+* Conditions https://docs.atlassian.com/software/jira/docs/api/7.1.0/com/atlassian/jira/plugin/webfragment/conditions/package-summary.html
