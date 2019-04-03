@@ -10,11 +10,6 @@
     <!-- add our i18n resource -->
     <resource type="i18n" name="i18n" location="demo"/>
 
-    <web-item key="hello-mydemo" section="system.top.navigation.bar" weight="105">
-        <label>Dedas</label>
-        <link linkId="demo-plugin-link">/plugins/servlet/demo</link>
-    </web-item>
-
     <!-- MENU ITEMS -->
     <web-section name="My Links Main Section"
                  key="my_links_section"
@@ -24,13 +19,13 @@
         <link linkId="demo_section">http://www.atlassian.com</link>
         <condition class="demo.demoConditions.DedasCondition"></condition>
     </web-item>
-    <web-item key="another_link" name="Another Link on My Company" section="demo_section/my_links_section">
-        <label>Another Link</label>
-        <link linkId="demo_section">http://www.atlassian.com</link>
+    <web-item key="hello-mydemo" section="demo_section/my_links_section" weight="105">
+        <label>Dedas</label>
+        <link linkId="demo-plugin-link">/plugins/servlet/demo</link>
     </web-item>
-    <web-item key="the_other_link" name="The Other Link on My Company" section="demo_section/my_links_section">
-        <label>The Other Link</label>
-        <link linkId="demo_section">http://www.atlassian.com</link>
+    <web-item key="configuration_link" name="Another Link on My Company" section="demo_section/my_links_section">
+        <label>Configuration</label>
+        <link linkId="demo_section">/plugins/servlet/configuration</link>
     </web-item>
     <!-- END OF MENU ITEMS -->
 
@@ -50,6 +45,11 @@
              class="demo.servlet.DemoServlet">
         <description>This is just a demo servlet!</description>
         <url-pattern>/demo</url-pattern>
+    </servlet>
+    <servlet name="Configuration Servlet" key="configurationServlet"
+             class="demo.servlet.ConfigurationServlet">
+        <description>This is configuration servlet!</description>
+        <url-pattern>/configuration</url-pattern>
     </servlet>
     <!-- END OF SERVLET MAPPINGS -->
 
