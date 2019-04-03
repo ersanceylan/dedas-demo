@@ -119,6 +119,7 @@
                 <configuration>
                     <productVersion>${jira.version}</productVersion>
                     <productDataVersion>${jira.version}</productDataVersion>
+                    <!--<jvmArgs>-user.language=en -user.country=US</jvmArgs>-->
                     <!-- Uncomment to install TestKit backdoor in JIRA. -->
                     <!--
                     <pluginArtifacts>

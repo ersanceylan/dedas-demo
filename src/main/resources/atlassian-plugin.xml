@@ -18,18 +18,19 @@
     <!-- MENU ITEMS -->
     <web-section name="My Links Main Section"
                  key="my_links_section"
-                 location="my_links_link" weight="10"/>
-    <web-item key="my_links_link" name="Link on My Links Main Section" section="system.top.navigation.bar">
+                 location="demo_section" weight="10"/>
+    <web-item key="demo_section" name="Link on My Links Main Section" section="system.top.navigation.bar">
         <label>My Company</label>
-        <link linkId="my_links_link">http://www.atlassian.com</link>
+        <link linkId="demo_section">http://www.atlassian.com</link>
+        <condition class="demo.demoConditions.DedasCondition"></condition>
     </web-item>
-    <web-item key="another_link" name="Another Link on My Company" section="my_links_link/my_links_section">
+    <web-item key="another_link" name="Another Link on My Company" section="demo_section/my_links_section">
         <label>Another Link</label>
-        <link linkId="my_links_link">http://www.atlassian.com</link>
+        <link linkId="demo_section">http://www.atlassian.com</link>
     </web-item>
-    <web-item key="the_other_link" name="The Other Link on My Company" section="my_links_link/my_links_section">
+    <web-item key="the_other_link" name="The Other Link on My Company" section="demo_section/my_links_section">
         <label>The Other Link</label>
-        <link linkId="my_links_link">http://www.atlassian.com</link>
+        <link linkId="demo_section">http://www.atlassian.com</link>
     </web-item>
     <!-- END OF MENU ITEMS -->
 
