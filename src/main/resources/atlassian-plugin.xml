@@ -53,6 +53,12 @@
     </servlet>
     <!-- END OF SERVLET MAPPINGS -->
 
+    <!-- REST MAPPINGS -->
+    <rest key="demoRestApi" path="/demo" version="1.0">
+        <description>Provides demo rest API</description>
+    </rest>
+    <!-- END OF REST MAPPINGS -->
+
     <!-- add our web resources -->
     <web-resource key="demo-resources" name="demo Web Resources">
         <dependency>com.atlassian.auiplugin:ajs</dependency>

@@ -37,15 +37,21 @@
         <form class="aui" action="" method="post">
             <div class="field-group">
                 <label for="info-count">Due Date Info Count</label>
-                <input class="text" type="text" id="info-count" name="due-date-info-count" title="Text input">
+                <input class="text" type="text" id="info-count"
+                       value="$infoCount"
+                       name="due-date-info-count" title="Text input">
             </div>
             <div class="field-group">
                 <label for="warning-count">Due Date Warning Count</label>
-                <input class="text" type="text" id="warning-count" name="due-date-warning-count" title="Text input">
+                <input class="text" type="text" id="warning-count"
+                       value="$warningCount"
+                       name="due-date-warning-count" title="Text input">
             </div>
             <div class="field-group">
                 <label for="alert-count">Due Date Alert Count</label>
-                <input class="text" type="text" id="alert-count" name="due-date-alert-count" title="Text input">
+                <input class="text" type="text" id="alert-count"
+                       value="$alertCount"
+                       name="due-date-alert-count" title="Text input">
             </div>
             <div class="buttons-container">
                 <div class="buttons">
